@@ -39,7 +39,7 @@ export function EditTodoList({ el, apiCall, toast }) {
 
 	async function handleSubmit(e) {
 		e.preventDefault();
-		let res = await fetch(`http://localhost:8080/todo/${el.id}`, {
+		let res = await fetch(`https://bankbackend-todo.onrender.com/todo/${el.id}`, {
 			method: "PATCH",
 			headers: {
 				"Content-Type": "application/json",

@@ -75,7 +75,7 @@ import {
 		}else{
 				// console.log(user)
 				try{
-					let res = await fetch('http://localhost:8080/todo',{
+					let res = await fetch('https://bankbackend-todo.onrender.com/todo',{
 					  method: "POST",
 					  headers: { "content-type": "application/json"},
 					  body: JSON.stringify(user),
@@ -102,7 +102,7 @@ import {
 
   
 	async function apiCall() {
-	  let res = await fetch("http://localhost:8080/todo");
+	  let res = await fetch("https://bankbackend-todo.onrender.com/todo");
 	  res = await res.json();
 	  dispatch(getData(res));
 	}
@@ -110,7 +110,7 @@ import {
 
   
 	async function handleDelete(id) {
-	   await fetch(`http://localhost:8080/todo/${id}`, {
+	   await fetch(`https://bankbackend-todo.onrender.com/todo/${id}`, {
 		method: "DELETE",
 		headers: {
 		  "Content-Type": "application/json",
