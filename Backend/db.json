@@ -1,0 +1,26 @@
+{
+  "todo": [
+    {
+      "name": "osama khan",
+      "ano": "373250100014725",
+      "bname": "Bank of Baroda",
+      "address1": "1 DLF",
+      "address2": "Delhi",
+      "city": "DLF",
+      "country": "India",
+      "zip": "330006",
+      "id": 1
+    },
+    {
+      "name": "Alan walker",
+      "ano": "056100029876",
+      "bname": "kotak mahindra bank",
+      "address1": "Line 1",
+      "address2": "USA",
+      "city": "Londan",
+      "country": "USA",
+      "zip": "57910",
+      "id": 2
+    }
+  ]
+}
